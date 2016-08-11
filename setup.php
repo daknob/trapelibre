@@ -55,6 +55,9 @@
 							<p><?php echo $ProjectName ?> currently has an Administrator
 							which can configure the parameters of the software. Please
 							enter the user credentials below.</p>
+							<p>Make sure the credentials you use are secure and cannot
+							be guessed by employees and/or customers who may obtain
+							access to the service.</p>
 							<div class="row">
 								<div class="form-group col-xs-offset-1 col-xs-10">
 									<label for="username">Username:</label>
