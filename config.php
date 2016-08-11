@@ -38,7 +38,7 @@
 	*/
 
 	/*
-		This variable contains the name of the facility Trapelibe is
+		This variable contains the name of the facility Trapelibre is
 		used at. It does not alter functionality but simply displays
 		the name in various positions around the user interface.
 	*/
