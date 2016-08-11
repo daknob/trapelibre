@@ -17,5 +17,7 @@
 	*/
 
 	$ProjectName = "Trapelibre";
+	$RestaurantName = "Example Restaurant";
+	$Version = "0.0.1";
 
 ?>
