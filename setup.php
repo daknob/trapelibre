@@ -28,23 +28,52 @@
 			require_once "navbar.php";
 		?>
 		<div class="container">
-			<div class="row">
-				<div class="panel panel-default col-xs-offset-1 col-xs-10">
-					<div class="panel-heading">
-						<h3 class="panel-title"><?php echo $ProjectName; ?> Set Up</h3>
-					</div>
-					<div class="panel-body">
-						<p>Welcome to the <?php echo $ProjectName; ?> Set Up Page.
-						In this page you need to take some basic steps before you
-						are able to use the software. Most settings can be
-						configured from the configuration file named <code>config.php</code>
-						so make sure you also check it out beforehand.</p>
-						<p>The recommended way of doing this is to edit the file first,
-						then use this page, and finally use the software in a real
-						environment.</p>
+			<form action="/setup.php" method="post">
+				<div class="row">
+					<div class="panel panel-default col-xs-offset-1 col-xs-10">
+						<div class="panel-heading">
+							<h3 class="panel-title"><?php echo $ProjectName; ?> Set Up</h3>
+						</div>
+						<div class="panel-body">
+							<p>Welcome to the <?php echo $ProjectName; ?> Set Up Page.
+							In this page you need to take some basic steps before you
+							are able to use the software. Most settings can be
+							configured from the configuration file named <code>config.php</code>
+							so make sure you also check it out beforehand.</p>
+							<p>The recommended way of doing this is to edit the file first,
+							then use this page, and finally use the software in a real
+							environment.</p>
+						</div>
 					</div>
 				</div>
-			</div>
+				<div class="row">
+					<div class="panel panel-default col-xs-offset-1 col-xs-10">
+						<div class="panel-heading">
+							<h3 class="panel-title">Administrator Credentials</h3>
+						</div>
+						<div class="panel-body">
+							<p><?php echo $ProjectName ?> currently has an Administrator
+							which can configure the parameters of the software. Please
+							enter the user credentials below.</p>
+							<div class="row">
+								<div class="form-group col-xs-offset-1 col-xs-10">
+									<label for="username">Username:</label>
+									<input type="text" class="form-control" id="username" name="username"></input>
+								</div>
+								<div class="form-group col-xs-offset-1 col-xs-10">
+									<label for="password">Password:</label>
+									<input type="password" class="form-control" id="password" name="password"></input>
+								</div>
+								<div class="form-group col-xs-offset-1 col-xs-10">
+									<label for="password2">Repeat Password:</label>
+									<input type="password2" class="form-control" id="password2" name="password2"></input>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
 		</div>
 		<?php
 		require_once "footer.php";
