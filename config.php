@@ -16,6 +16,6 @@
 		limitations under the License.
 	*/
 
-	$ProjectName = "Trapelibre";
+	$ProjectName = "libre-trable";
 
 ?>
