@@ -16,8 +16,47 @@
 		limitations under the License.
 	*/
 
-	$ProjectName = "Trapelibre";
+	/*
+		Welcome to Trapelibre Configuration. In this file you can configure
+		and alter the behavior of Trapelibre. Some changes are required in
+		order to be able to use Trapelibre efficiently. Some other changes
+		are more technical and can be left with their default value. For
+		this reason, this file is split into three parts. The first part
+		contains variables that SHOULD be changed and be different in every
+		setup. The second part contains variables that COULD be changed if
+		the owner wants to, but their default values are safe to be left as
+		is. The third part contains variables that SHOULD NOT be changed
+		and are used internally by the development team. Changing these
+		values comes with absolutely no guarantee that the software will
+		continue to work without issues.
+	*/
+
+	/*
+		+-------------+
+		|  SECTION I  |
+		+-------------+
+	*/
+
+	/*
+		This variable contains the name of the facility Trapelibe is
+		used at. It does not alter functionality but simply displays
+		the name in various positions around the user interface.
+	*/
 	$RestaurantName = "Example Restaurant";
+
+	/*
+		+--------------+
+		|  SECTION II  |
+		+--------------+
+	*/
+
+	/*
+		+---------------+
+		|  SECTION III  |
+		+---------------+
+	*/
+
+	$ProjectName = "Trapelibre";
 	$Version = "0.0.1";
 
 ?>
