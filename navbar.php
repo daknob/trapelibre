@@ -2,6 +2,7 @@
 	/*
 		Copyright 2016 Kostas Mpenos <mpenos.ks@gmail.com>
 		Copyright 2016 Spyridon Rafail Panagiotopoulos <martkonsta@gmail.com>
+		Copyright 2016 Antonios A. Chariton <daknob.mac@gmail.com>
 
 		Licensed under the Apache License, Version 2.0 (the "License");
 		you may not use this file except in compliance with the License.
@@ -15,6 +16,8 @@
 		See the License for the specific language governing permissions and
 		limitations under the License.
 	*/
+
+	require_once("config.php");
 ?>
 
 <nav class="navbar navbar-inverse">
@@ -27,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </label>
-            <a class="navbar-brand" href="/">libre-table</a>
+            <a class="navbar-brand" href="/"><?php echo $ProjectName ?></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
