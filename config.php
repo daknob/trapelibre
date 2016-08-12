@@ -49,7 +49,7 @@
 		|  SECTION II  |
 		+--------------+
 	*/
-
+	$DBname = "trapelibre.db";
 	/*
 		+---------------+
 		|  SECTION III  |
